@@ -23,9 +23,12 @@ cd FoodieFinder-Frontend
 ```
 
 ### 2. Install Dependencies
+```bash
 npm install
-
+```
 ### 3. Run the Application After starting the backend server, you can start the frontend development server with:
+```bash
 npm run dev
+```
 
-##You should now be able to see the FoodieFinder frontend running locally.
+## You should now be able to see the FoodieFinder frontend running locally.
