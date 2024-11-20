@@ -1,0 +1,54 @@
+/* Main container */
+.restaurant-container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    gap: 20px; /* Space between rows */
+    padding: 20px;
+  }
+  
+  /* Individual restaurant row */
+  .restaurant-row {
+    display: flex; /* Arrange content horizontally inside the row */
+    align-items: center; /* Vertically center items */
+    gap: 20px;
+    width: 100%;
+    max-width: 800px; /* Limit the row width */
+    margin: 0 auto; /* Center horizontally on the page */
+    text-decoration: none; /* Remove underline from Link */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+    padding: 15px;
+  }
+  
+  .restaurant-row:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Restaurant image */
+  .restaurant-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Restaurant details */
+  .restaurant-details {
+    flex: 1; /* Take up remaining space */
+    color: #333;
+  }
+  
+  .restaurant-details h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #4CAF50;
+  }
+  
+  .restaurant-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #777;
+  }
+  

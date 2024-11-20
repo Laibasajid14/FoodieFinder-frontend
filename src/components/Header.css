@@ -1,0 +1,43 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4CAF50;
+  padding-left: 20px; /* Adds space before the logo */
+  margin-left: 20px;  /* Optional, if you want more space */
+}
+
+/* Search Bar */
+.search-bar input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 120%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Auth Button Styles */
+.auth-buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.auth-buttons button:hover {
+  background-color: #45a049;
+}
