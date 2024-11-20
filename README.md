@@ -18,7 +18,7 @@ Before running the frontend, ensure that:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/<your-username>/FoodieFinder-Frontend.git
+git clone https://github.com/Alinazindani/FoodieFinder-Frontend.git
 cd FoodieFinder-Frontend
 ```
 
