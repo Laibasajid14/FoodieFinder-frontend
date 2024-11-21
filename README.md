@@ -1,10 +1,11 @@
-# FoodieFinder Frontend
+c# FoodieFinder Frontend
 
 FoodieFinder is a restaurant review platform designed to help users discover and review restaurants in Pakistan. This repository contains the frontend code for the application, built with React.
 
 ## Features
 - User-friendly interface for browsing and reviewing restaurants.
 - Integration with a backend API for fetching and submitting data.
+- Vite for fast and optimized frontend development.
 - React Router for seamless navigation between pages.
 - Axios for making HTTP requests to the backend.
 
@@ -26,7 +27,17 @@ cd FoodieFinder-Frontend
 ```bash
 npm install
 ```
-### 3. Run the Application After starting the backend server, you can start the frontend development server with:
+this will also install Vite: For optimized development and building of the project.
+
+### 4. Install Additional Packages
+```bash
+npm install axios
+```
+```bash
+npm install react-router-dom
+```
+
+### 5. Run the Application After starting the backend server, you can start the frontend development server with:
 ```bash
 npm run dev
 ```
